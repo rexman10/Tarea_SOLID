@@ -6,26 +6,17 @@ public class PagoPaypalO implements Pagable{
     
     public void realizarCobro(double monto){
         if(!loggedIn)
-            return;
-        
+            return;   
         //Carga el monto de la compra al medio de pago
     }
 
     @Override
     public void calcularImpuestosFactura() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        //calcula losimpuestos asociados a la compra
     }
 
     @Override
     public void generarFactura() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void realizarCobro() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    
-    
+        //genera una nueva factura
+    }  
 }

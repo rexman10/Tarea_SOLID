@@ -10,7 +10,7 @@ package modelo;
  * @author FxFF
  */
 public interface Pagable {
-    public void realizarCobro();
+    public void realizarCobro(double monto);
     public void calcularImpuestosFactura();
     public void generarFactura();
 }
