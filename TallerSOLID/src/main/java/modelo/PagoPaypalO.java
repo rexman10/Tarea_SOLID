@@ -3,7 +3,7 @@ package modelo;
 
 public class PagoPaypalO implements Pagable{
     private boolean loggedIn;   //Conexion a cuenta PayPal
-    
+    @Override
     public void realizarCobro(double monto){
         if(!loggedIn)
             return;   
