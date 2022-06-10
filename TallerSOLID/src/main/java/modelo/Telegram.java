@@ -8,6 +8,7 @@ package Notifica;
  *
  * @author jaime
  */
-public class Telegram {
+public class Telegram implements Notificacion{
+    //Retorna una notificacion por Telegram
     
 }
