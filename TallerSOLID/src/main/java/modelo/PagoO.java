@@ -1,7 +1,7 @@
 
 package modelo;
 
-public class PagoO {
+public class PagoO{
     //atributos
     public void realizarCobro(double monto){
         //cargar el monto de la compra al medio de pago
