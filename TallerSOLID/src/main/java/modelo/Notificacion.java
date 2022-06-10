@@ -9,7 +9,8 @@ package Notifica;
  * @author jaime
  */
 public interface Notificacion {
-    
+    public void Notificar(Pago){}
+        // Retorna la notificacion del pago 
     
     
 }
